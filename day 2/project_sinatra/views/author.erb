@@ -1,0 +1,13 @@
+
+<h1> Hey!</h1>
+<% if Date.today.tuesday? %>
+
+  <h1>My First Sinatra</h1>
+  <p>
+    <b>Author:</b>
+    Johnny Appleseed
+  </p>
+  <p>
+    <%= Time.now.strftime("%d/%b/%Y -- %H:%M:%S") %>
+  </p>
+<% end %>

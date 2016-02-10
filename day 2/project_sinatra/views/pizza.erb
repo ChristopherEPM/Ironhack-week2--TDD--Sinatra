@@ -1,0 +1,13 @@
+<html>
+<head> 
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+  <body>
+    <ul>
+      <% @ingredients.each do |ingr| %>
+        <li><%= ingr %></li> 
+      <% end %>
+    </ul>
+    <img src="barbacoa.jpg" alt="Pizza">
+  </body>
+</html>
